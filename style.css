@@ -1,0 +1,289 @@
+
+
+
+
+  .topnav {
+    overflow: hidden;
+    text-align: center;
+    
+
+  }
+  h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 3%;
+  }
+ 
+  .social-footer {
+  padding: .6rem;
+  background-color: rgba(0, 0, 0, 0.959);  
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 100%;
+  }
+.social-footer-icons li {
+display: inline-block;
+margin-bottom: 5px;
+vertical-align: middle;
+    
+ }
+ 
+ li{
+    text-align:justify;
+    list-style-type:none;
+ }
+
+
+.checked {
+    color: orange;
+  }
+
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+ 
+
+
+.price-box {
+    border: solid #00080a 2px;
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    display:block;
+    
+  }
+
+
+  
+    
+#pricing {
+    align-items: center;
+    text-align: center;  
+    }
+    
+#pricing p{
+      text-align: center;
+    }
+   
+.price-box {
+    border-radius: 4px;
+    margin-left: auto;
+
+    
+  }
+
+#pricing .price-box {
+display:inherit;
+
+}
+  
+.price-box:first-child {
+    margin-right: auto;
+
+  }
+  
+  .social h3, p{
+    font-family: 'Montserrat', sans-serif;
+    }
+  .contact h3, p{
+    font-family: 'Montserrat', sans-serif;
+    top: 100%;
+    left: 50%;
+      }
+  
+
+
+      .address h3, p{
+        font-family: 'Montserrat', sans-serif;  
+        right: 50%;
+        bottom: 50%;
+      
+      }
+
+      .hours{
+        position:absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(-95%, -30%);
+        }
+  
+.aboutus{
+        text-align: center;
+      
+        background-size:auto;
+        color: white;
+        font-size: 30px;
+        width: auto;
+        height: 50px;
+        text-align:justify;
+        position: relative;
+        bottom:80px;
+        
+      }
+
+      .aboutt p{
+        font-family: 'Montserrat', sans-serif;
+            }
+
+.header-img{
+top:-20px;   
+}
+
+  .cust-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  th {
+    text-align: right; 
+  }
+
+  textarea.subject{
+text-align: justify;  }
+
+input, label {
+    display:block;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;}
+
+
+body{margin-top:20px;}
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+
+.navigation {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,.3)}
+
+.logo {
+  max-height: 100px;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+.fa,
+.fas {
+  font-family: 'FontAwesome';
+}
+
+ul li a {
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+ul li a.cart:hover {
+  text-decoration: none;
+  color: #d60e96;
+}
+
+ul li a.cart .cart-basket {
+  font-size: .6rem;
+  position: absolute;
+  top: -6px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  background-color: #418deb;
+  border-radius: 50%;
+}
