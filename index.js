@@ -1,35 +1,35 @@
 
 var shop = [
     {
-        title: 'Spence',
+        title: 'Spence (Yorkie)',
         image: './img/pexels-photo-1420405.jpg',
-        price: '',
-        description: "Yorkie"
+        price: '1,000',
+        description: "8 week old yorkie. Has all shots. "
       },
     {
-        title: 'Coop',
+        title: 'Coop (French Bulldog)',
         image: './img/bulldog.jpg',
         price: '16.79',
-        description: "French Bulldog"
+        description: ""
       },
       {
-        title: 'Casper',
+        title: 'Casper(Maltese)',
         image: './img/little-maltese-puppy-with-blue-bow-tie-780x681.jpg',
         price: '16.79',
-        description: "Maltese"
+        description: "6 Month Old  pup ready to go home with you today. Up to date on shots, potty trained"
       },
       {
-        title: 'Twirl',
-        image: './pomeranian.jpg',
+        title: 'Twirl(Cavapoo)',
+        image: './img/Cavapoo.jpg',
         price: '16.79',
-        description: "Pomeranian"
+        description: "9 weeks"
       },
     
       ];
       var postHTML = ""
       for (var i=0; i < shop.length; i++){
     
-      var container = '<div class="container col-md-3">'
+      var container = '<div class="container col-md-3">' 
       var heading = '<div class=" mb-3 text-center"><div class="card mb-4 shadow-sm" style="border: 2px solid  rgb(234, 186, 75);"> ' + '<div class="card-header"><h4 class="my-0 fw-normal '+ '"> ' + shop[i].title + '</h4></div>';
     
       var price = '<div class="card-body"><h1 class="card-title pricing-card-title' + '">$' + shop[i].price + '</h1>';
