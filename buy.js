@@ -56,7 +56,32 @@ var shop = [
       image: './img/bag1.jpg',
       price: '16.79',
       description: "<br>Fancy Feast Gravy Lovers Poultry & Beef Feast Variety Pack Canned Cat Food"
+    }, {
+      title: 'Spence (Yorkie)',
+      image: './img/pexels-photo-1420405.jpg',
+      price: '1,000',
+      description: "8 week old yorkie. Has all shots. "
     },
+  {
+      title: 'Coop (French Bulldog)',
+      image: './img/bulldog.jpg',
+      price: '16.79',
+      description: ""
+    },
+    {
+      title: 'Casper(Maltese)',
+      image: './img/little-maltese-puppy-with-blue-bow-tie-780x681.jpg',
+      price: '16.79',
+      description: "6 Month Old  pup ready to go home with you today. Up to date on shots, potty trained"
+    },
+    {
+      title: 'Twirl(Cavapoo)',
+      image: './img/Cavapoo.jpg',
+      price: '16.79',
+      description: "9 weeks"
+    },
+  
+
   
     ];
     var postHTML = ""
@@ -73,5 +98,8 @@ var shop = [
         postHTML = postHTML + concatThis            
     }
     document.getElementById('market').innerHTML = postHTML   
+
+
+    
 
     
