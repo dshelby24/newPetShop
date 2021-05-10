@@ -62,12 +62,7 @@ var shop = [
       price: '1,000',
       description: "8 week old yorkie. Has all shots. "
     },
-  {
-      title: 'Coop (French Bulldog)',
-      image: './img/bulldog.jpg',
-      price: '16.79',
-      description: ""
-    },
+  
     {
       title: 'Casper(Maltese)',
       image: './img/little-maltese-puppy-with-blue-bow-tie-780x681.jpg',
@@ -88,7 +83,7 @@ var shop = [
     for (var i=0; i < shop.length; i++){
   
     var container = '<div class="container col-lg-4">'
-    var heading = '<div class=" mb-4 text-center"><div class="card mb-4 shadow-sm" style="border: 2px solid  rgb(234, 186, 75);"> ' + '<div class="card-header"><h4 class="my-0 fw-normal '+ '"> ' + shop[i].title + '</h4></div>';
+    var heading = '<div class=" mb-1 text-center"><div class="card mb-4 shadow-sm" style="border: 2px solid  rgb(234, 186, 75);"> ' + '<div class="card-header"><h4 class="my-0 fw-normal '+ '"> ' + shop[i].title + '</h4></div>';
   
     var price = '<div class="card-body"><h1 class="card-title pricing-card-title' + '">$' + shop[i].price + '</h1>';
     var image = '<ul class="list-unstyled mt-3 mb-4 ' + '"> <ul class="list-unstyled mt-3 mb-4"> <img src="' + shop[i].image + '"style="" alt="Product">';

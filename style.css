@@ -107,7 +107,15 @@ display:inherit;
     left: 50%;
       }
   
-
+.contact{
+margin-left: 100%;
+}
+.inquiry{
+  margin-top: 20%;
+}
+.address{
+  margin-left: 100%   
+}
 
       .address h3, p{
         font-family: 'Montserrat', sans-serif;  
@@ -120,7 +128,7 @@ display:inherit;
         position:absolute;
           top: 100%;
           left: 50%;
-          transform: translate(-95%, -30%);
+          /* transform: translate(-95%, -30%); */
         }
   
 .aboutus{
@@ -134,6 +142,7 @@ display:inherit;
         text-align:justify;
         position: relative;
         bottom:80px;
+        display: inline-block;
         
       }
 
@@ -199,7 +208,8 @@ body{
     padding: 30px;
 }
 img {
-    border: 0;
+    border: solid 5px;
+margin-right: 80px; 
 }
 .mgb-20, .mgb-20-all > * {
     margin-bottom: 20px;
@@ -235,10 +245,11 @@ img {
 
 
 .slideshow{
-  position: relative;
+position: relative;
+background-color: #418deb;  
+align-items: center;
+
 }
-
-
 
 
 
