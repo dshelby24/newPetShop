@@ -148,7 +148,12 @@ margin-left: 100%;
 
       .aboutt p{
         font-family: 'Montserrat', sans-serif;
-            }
+      text-align: justify;
+      margin-left: 3%;
+      margin-right: 3%;
+
+      
+      }
 
 .header-img{
 top:-20px;   
@@ -261,7 +266,8 @@ align-items: center;
   background-color: rgba(0,0,0,.3)}
 
 .logo {
-  max-height: 100px;
+height:80px;
+width:80px;
 }
 
 
