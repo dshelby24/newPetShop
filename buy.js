@@ -14,7 +14,7 @@ var shop = [
     },
     {
       title: 'Lounge Couch',
-      image: './img/dogcouch.jpg',
+      image: './img/dogCouch.jpg',
       price: '145.00',
       description: "<br> It's time for your fur baby to sleep in style. Made from washable waterproof velvet our pet bed collection doubles as stylish statement pieces that complement your impeccably glamorous taste.."
     },
@@ -27,7 +27,7 @@ var shop = [
 
     {
       title: 'Louis Pawton',
-      image: './img/louis.jpg',
+      image: './img/Louis.jpg',
       price: '49.99',
       description: "<br><br><br><br><br><br><br> Louis Pawton Furry Brown Jacket"
     },
