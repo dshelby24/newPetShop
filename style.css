@@ -50,7 +50,7 @@ vertical-align: middle;
 
 
 .price-box {
-    border: solid #00080a 2px;
+    /* border: solid #00080a 2px; */
     width: fit-content;
     margin: 5px;
     padding: 5px;
