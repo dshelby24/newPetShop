@@ -102,25 +102,37 @@ display:inherit;
 .address{
   position:relative;
   right: -300px;
-
+  bottom:190px;
+  
 
 }
-.contacts{
-top: -800px;
-}
+
 
 
 .contact{
   position: absolute;
   right: 300px;
+bottom: -8px;  
+ 
+}
+
+.contact h3{
+right: 300px;
+font-weight: bolder;
+
+
  
 }
 
 
+.address h3{
+  font-weight:bolder;
+}
 .address h3, p{
         font-family: 'Montserrat', sans-serif;  
         right: 50%;
         bottom: 50%;
+        
       
       }
 .row{
@@ -193,7 +205,6 @@ h1{
   }
 
 
-body{margin-top:20px;}
 
 .align-center {
     text-align: center;
@@ -214,11 +225,11 @@ body{
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.pad-30, .pad-30-all > * {
+.pad-30, .pad-30-all >  {
     padding: 30px;
 }
 
-.mgb-20, .mgb-20-all > * {
+.mgb-20, .mgb-20-all >  {
     margin-bottom: 20px;
 }
 .wpx-100, .wpx-100-after:after {
@@ -227,11 +238,11 @@ body{
 .img-round, .img-rel-round {
     border-radius: 50%;
 }
-.padb-30, .padb-30-all > * {
+.padb-30, .padb-30-all >  {
     padding-bottom: 30px;
 }
 
-.mgb-40, .mgb-40-all > * {
+.mgb-40, .mgb-40-all >  {
     margin-bottom: 40px;
 }
 .align-center {
@@ -285,15 +296,8 @@ align-content: center;
   font-family: 'FontAwesome';
 }
 
-ul li a {
-  font-size: 1.1rem;
-  color: #343a40;
-}
 
-ul li a.cart:hover {
-  text-decoration: none;
-  color: #d60e96;
-}
+
 
 ul li a.cart .cart-basket {
   font-size: .6rem;
@@ -343,25 +347,7 @@ color: white;
 }
 
 
-.vip2-image {
+  
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/karsten-winegeart-Qb7D1xw28Co-unsplash.jpg");
-  
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position:relative;
-  overflow: auto
-  }
-  
-  .vip2-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  }
 
   
