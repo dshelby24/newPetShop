@@ -177,13 +177,13 @@ bottom: -480px;
  .hours{
         position:absolute;
           bottom: 5%;
-          right: -40%;
+          right: 10%;
           transform: translate(-95%, -20%);
        background-color: #ffffff;
           border: 1px solid black;
           opacity: 0.8;
           height: max-content;
-          width: 50%;
+          width:20%;
         }
   
 .aboutus{
@@ -348,8 +348,8 @@ font-size: 30px;
   background-color: rgba(0,0,0,.3)}
 
 .logo {
-height:80px;
-width:80px;
+height:100px;
+width:100px;
 display: flex;
 }
 
@@ -434,3 +434,26 @@ max-width: fit-content;
 
 
 
+@media (min-width: 375px){
+  .nav-link{
+    color: rgb(240, 224, 9);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 25px;
+    }
+}
+
+
+
+@media (min-width: 375px){
+  address{
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    position: absolute;
+    left: 270px;
+    bottom: -300px;
+    width: 50%;
+  }
+  
+}
