@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet"/>
 
     <title>Contact Page</title>
 </head>
@@ -16,13 +19,13 @@
 
       
      
-    </main>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container-fluid">
+    
        
-        <div class="collapse navbar-collapse" id="navbar">
-       <img class="logo"       
-          src="img/pretty-2.png"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+           
+           <img class="logo"       
+              src="/img/logo4.png"></a>
           <ul class="navbar-nav mb-lg-0"></ul>
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="./index.html">Home</a>
@@ -49,7 +52,7 @@
 <br>
  
 <main class="container" id="shop">
-  <div class="jumbotron pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-dark" style="border: 5px solid rgb(234, 186, 75);">
+  <div class="jumbotron pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-dark" style="border: 5px solid rgb(109, 63, 236);">
     <h1 class="display-3">Contact Us </h1>
     <p class="lead">Bark If You Need Us! </p>
     <div class="social">
@@ -62,25 +65,25 @@
 
   <!--Map -->  
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.860342689533!2d-84.42259568464199!3d39.155157979531744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841ad7266640ed7%3A0x45831f9a20104344!2s3450%20Cardiff%20Ave%2C%20Cincinnati%2C%20OH%2045209!5e0!3m2!1sen!2sus!4v1619286742489!5m2!1sen!2sus" width="400" height="300" style="border: solid rgb(234, 186, 75);" allowfullscreen="" loading="lazy"></iframe>
-      </div>  
 
 
+
+<!--Contact-->
 <div class ="contacts text-center">
 <div class="contacts"
 >
 <div class="address">
-  <h3>Address:</h3>
-  <p>420 Memory Ln</p>
-  <p>Cincinnati, OH 45321</p>
-  </div>
- <br>
 
+  <h3>Address:</h3>
+   <p>420 Memory Ln</p>
+ <p>Cincinnati, OH 45321</p>
+ <br>
+</div>
   <div class="contact">
   <h3>Contacts:</h3>
   <p>Phone: 513-555-0000</p>
   <p>Fax: 513-000-5555</p>
-  <p>Email: Prettylittlepaws@info.net</p>
+  <p>Email: unleashedpaws@info.net</p>
   </div>
 </div>
 </div>
@@ -88,7 +91,8 @@
 
 
 
-  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.860342689533!2d-84.42259568464199!3d39.155157979531744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841ad7266640ed7%3A0x45831f9a20104344!2s3450%20Cardiff%20Ave%2C%20Cincinnati%2C%20OH%2045209!5e0!3m2!1sen!2sus!4v1619286742489!5m2!1sen!2sus" width="500" height="500" style="border: solid rgb(109, 63, 236);" allowfullscreen="" loading="lazy"></iframe>
+</div>  
      
 
 
@@ -106,18 +110,13 @@
 <div class="inquiry">
 <section class="contact-section p-4 p-lg-5 text-center" id="contact">
   <div class="my-auto">
-    <h2 class="mb-4">Contact Information</h2>
     <p>Leave us a message</p>
-
- 
-    
-
     <form
       class="contact-form d-flex flex-column align-items-center"
       action="dshelbyv@gmail.com"
       method="POST">
 
-      <div class="form-group w-50">
+      <div class="form-group w-40">
         <input
           type="name"
           class="form-control"
@@ -125,7 +124,7 @@
           name="name"
           required/>
       </div>
-      <div class="form-group w-50">
+      <div class="form-group w-40">
         <input
           type="email"
           class="form-control"
@@ -134,7 +133,7 @@
           required/>
       </div>
 
-      <div class="form-group w-50">
+      <div class="form-group w-40">
         <textarea
           class="form-control"
           type="text"
@@ -149,6 +148,7 @@
   </div>
   <div class="hours">
     <table>
+      <h2>Hours</h2>
     <tr><th>Monday</th><td>9am - 7pm</td></tr>
     <tr><th>Tuesday</th><td>9am - 7pm</td></tr>
     <tr><th>Wednesday</th><td>9am - 7pm</td></tr>
@@ -161,35 +161,69 @@
   </div>
 </section>
 
+<!--Join VIP List-->
+<div class="vip-image">
+  <div class="vip-text">
+    <h1>Join our Pawfect Program</h1>
+    <p>Get birthday emails, exclusive deals, birthdays treats and more!</p>
+    <div class="form-group w-100">
+      <input
+        type="name"
+        class="form-control"
+        placeholder="Email"
+        name="name"
+        required/>
+        <button>Join</button>
+    </div>
+  </div>
+</div>
+
 
 
 <!--Footer-->
 
-<footer class="social-footer">
-    <div class="social-footer-center">
-        <div class="social-footer-icons">
-
-<li>
-    <img src="./img/iconfinder_1_Facebook_colored_svg_copy_5296499.png" width="35"></a></li>
-<li> 
-    <img src="./img/iconfinder_1_Instagram_colored_svg_1_5296765.png" width="35"></a></li>
-          
-<li> 
-  <img src="./img/iconfinder_1_Twitter_colored_svg_5296514.png" width="35"></a></li>        
-</div>
+<footer>
+  <div class="jumbotron jumbotron-fluid bg-dark p-4 mt-5 mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+          <div class="card bg-dark border-0">
+            <div class="phone text-white text-center">
+              <h3>Contacts</h3>
+              <p>Phone: 513-555-0000</p>
+              <p>Email: unleashedpaws@info.net</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="card bg-dark border-0">
+            <div class="adress text-white text-center">
+              <h3>Address</h3>
+              <p>420 Memory Ln</p>
+              <p>Cincinnati, OH 45321</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="card bg-dark border-0">
+            <div class="card-body text-center">
+            <h5 class="card-title text-white display-4" style="font-size:30px">Social Media</h5>
+        
+                <a class="text-light" href="#"><i class="fa fa-facebook-square fa-fw fa-2x"></i></a>
+              
+                <a class="text-light" href="#"><i class="fa fa-twitter-square fa-fw fa-2x"></i></a>
+              
+                <a class="text-light" href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                            
+            </div>
+          </div>
+        </div>	
+      </div>
     </div>
-      <div class="adress text-white text-center">
-    <h3>Address</h3>
-    <p>420 Memory Ln</p>
-    <p>Cincinnati, OH 45321</p>
-    </div>
-<div class="phone text-white text-center">
-    <h3>Contacts</h3>
-    <p>Phone: 513-555-0000</p>
-    <p>Email: Prettylittlepaws@info.net</p>
   </div>
-
-    </footer>
+</footer>
 
       <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
