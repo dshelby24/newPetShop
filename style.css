@@ -1,7 +1,7 @@
 
 
 body{
-  background-image: url(./img/wall-brick-colorful-paint-street-art-graffiti-wallpaper-4k-u.jpg);
+  background-image: url(./assets/img/wall-brick-colorful-paint-street-art-graffiti-wallpaper-4k-u.jpg);
   background-repeat:repeat-y;
 background-position: center;
 background-repeat:repeat;
@@ -404,7 +404,7 @@ body, html {
 }
 
 .vip-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/new\ logo-2.png");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/new\ logo-2.png");
 height: 30%;
 width: 100%;
 background-position:center;

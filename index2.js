@@ -1,20 +1,20 @@
 var shop =[
     {
       title: 'Spence (Yorkie)',
-      image: './img/pexels-photo-1420405.jpg',
+      image: './assets/img/pexels-photo-1420405.jpg',
       price: 'inquire today',
       description: " <br> 8 weeks old. Spence loves skateboards he sleeps on one everynight. #CoolPup *Up to date on shots*"
     },
     
     {
       title: 'Casper(Maltese)',
-      image: './img/little-maltese-puppy-with-blue-bow-tie-780x681.jpg',
+      image: './assets/img/little-maltese-puppy-with-blue-bow-tie-780x681.jpg',
       price: 'inquire today',
       description: "6 Month old pup. He still has to get used to the dog life so be patient with him"
     },
     {
       title: 'Twirl(Cavapoo)',
-      image: './img/Cavapoo.jpg',
+      image: './assets/img/Cavapoo.jpg',
       price: 'inquire today',
       description: "9 weeks loves his blanket and loves to cuddle. Up to date on shots."
     },
