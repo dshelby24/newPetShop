@@ -89,7 +89,7 @@ display:inherit;
     margin-right: auto;
 
   }
-  
+
   .social h3, p{
     font-family: 'Montserrat', sans-serif;
     }
@@ -334,6 +334,8 @@ margin-left: 250px;
 color: rgb(240, 224, 9);
 font-family: 'Sedgwick Ave Display', cursive;
 font-size: 30px;
+margin-right: 100px;
+
 }
 .nav-link:hover{
   color: rgb(241, 97, 0);
@@ -457,3 +459,4 @@ max-width: fit-content;
   }
   
 }
+
